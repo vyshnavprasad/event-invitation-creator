@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="body">
     <main>
-        <section id="invitation-form">
+        <section id="input-form">
             <div class="container">
                 <center>
                     <h3>
                         Create an Event Invite
                     </h3>
                 </center>
-                <form>
+                <form id="invitation-form">
                     <label for="event-name">Event Name</label>
                     <input type="text" id="event-name" name="event-name" />
     
@@ -36,9 +36,9 @@
     
                     <label for="location">Location</label>
                     <input type="text" id="location" name="location" placeholder="Location of the event" />
+                    <button type="submit" class="btn" id="invitation-form-submit">Create Event</button>
                 </form>
                 
-                <button type="submit" class="btn">Create Event</button>
             </div>
         </section>
         <section id="invitation-card">

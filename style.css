@@ -105,7 +105,9 @@ dialog button {
     font-size: 1rem;
     cursor: pointer;
 }
-
+.btn:hover {
+    background: linear-gradient(to right, #d88200, #db2e33);
+}
 h1 {
     color: #dd4944;
     font-size: 2.5rem;
@@ -142,7 +144,9 @@ h5 {
     text-align: center;
 }
 
-
+#invitation-card {
+    display: none;
+}
 
 #invitation-card .container {
     padding: 3rem;
