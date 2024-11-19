@@ -105,3 +105,52 @@ dialog button {
     font-size: 1rem;
     cursor: pointer;
 }
+
+h1 {
+    color: #dd4944;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #31526e;
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+h6 {
+    color: #dd4944;
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: .6rem auto;
+    text-align: center;
+}
+
+
+
+#invitation-card .container {
+    padding: 3rem;
+    border: solid.5rem #dd4944;
+}
+
+#invitation-card h3 {
+    color: #000;
+    font-style: italic;
+    font-weight: 400;
+}
