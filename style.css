@@ -144,7 +144,9 @@ h5 {
     text-align: center;
 }
 
-
+#invitation-card {
+    display: none;
+}
 
 #invitation-card .container {
     padding: 3rem;
