@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section id="invitation-form">
+            <div class="container">
+                <center>
+                    <h3>
+                        Create an Event Invite
+                    </h3>
+                </center>
+                <form>
+                    <label for="event-name">Event Name</label>
+                    <input type="text" id="event-name" name="event-name" />
+    
+                    <label for="event-date">Event Date</label>
+                    <input type="date" id="event-date" name="event-date" />
+    
+                    <label for="start-time">Start Time</label>
+                    <input type="time" id="start-time" name="start-time" />
+    
+                    <label for="end-time">End Time</label>
+                    <input type="time" id="end-time" name="end-time" />
+    
+                    <label for="event-description">Event Description</label>
+                    <textarea id="event-description" name="event-description" rows="4"
+                        placeholder="Brief description of the event"></textarea>
+    
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="Location of the event" />
+                </form>
+                
+                <button type="submit" class="btn">Create Event</button>
+            </div>
+        </section>
+        <section id="invitation-card">
+            <div class="container">
+                <h1>YOU ARE INVITED</h1>
+                <h3>TO JOIN THE</h3>
+                <h2 id="card-event-name">Kerala JS MeetUp</h2>
+                <h6 id="card-day-date">Saturday, December 9, 2024</h6>
+                <p id="card-time">10:00 AM - 4:00 PM</p>
+                <p id="card-location">Kochi, Kerala</p>
+                <p id="card-description">Join us for an exciting meetup where JavaScript
+                    enthusiasts and experts from across the state will
+                    come together to discuss the latest trends and
+                    technologies in JS development. Network. learn.
+                    and collaborate in this community-driven event!</p>
+            </div>
+        </section>
+    </main>
+    <dialog id="dialog-incomplete-form" >
+        <div class="container">
+            <button type="button" id="dialog-incomplete-form-close">x</button>
+            <p>Please fill in all feilds</p>
+        </div>
+    </dialog>
+    <script src="script.js"></script>
+</body>
+
+</html>
